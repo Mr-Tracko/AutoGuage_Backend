@@ -4,5 +4,6 @@ const {createSeller , getAllUsers} = require("../controllers/SellerController.js
 
 router.post("/" , createSeller);
 router.get("/" , getAllUsers);
+console.log(createSeller, getAllUsers);
 
 module.exports = router;
